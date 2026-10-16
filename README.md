@@ -21,7 +21,7 @@ The work focuses on **AWS cloud infrastructure, networking, security, high avail
 ![Animated request flow across the load balancer and private EC2 targets](assets/request-flow.gif)
 
 
-The architecture diagram is included in the [complete project documentation](docs/Final%20Documentation%20-%20Meridian%20Retail%20Solutions.pdf#page=11) (page 11).
+The architecture diagram is included in the [complete project documentation](docs/Final%20Documentation%20-%20Meridian%20Retail%20Solutions.pdf).
 
 **Application traffic:** `Internet users → Internet Gateway / public ALB → HTTP target group → private EC2 (Nginx)`  
 **Administration:** `Authorized operator → AWS Systems Manager Session Manager → private EC2`  
