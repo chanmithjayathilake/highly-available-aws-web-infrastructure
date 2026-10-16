@@ -51,7 +51,7 @@ The architecture diagram is included in the [complete project documentation](doc
 |---|---|
 | Amazon VPC, subnets, route tables, Internet Gateway | Isolated networking and public/private traffic separation |
 | NAT Gateway and Elastic IP | Outbound access for private instances |
-| Amazon EC2 and EBS | Hosts the web servers and root volumes |
+| Amazon EC2 | Hosts the web servers and root volumes |
 | Nginx and EC2 user data | Serves a sample website and automates first-boot setup |
 | Application Load Balancer and target group | Routes HTTP requests to healthy instances |
 | Amazon EC2 Auto Scaling and launch template | Maintains two instances and launches replacements |
